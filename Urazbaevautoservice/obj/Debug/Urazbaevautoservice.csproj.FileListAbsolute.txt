@@ -25,3 +25,30 @@ C:\Уразбаев Тимашева\Urazbaevautoservice\Urazbaevautoservice\bin
 C:\Уразбаев Тимашева\Urazbaevautoservice\Urazbaevautoservice\bin\Debug\ru\EntityFramework.resources.dll
 C:\Уразбаев Тимашева\Urazbaevautoservice\Urazbaevautoservice\obj\Debug\Urazbaevautoservice_Content.g.cs
 C:\Уразбаев Тимашева\Urazbaevautoservice\Urazbaevautoservice\obj\Debug\Urazbaevautoservice.csproj.CopyComplete
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\bin\Debug\Urazbaevautoservice.exe.config
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\bin\Debug\Urazbaevautoservice.exe
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\bin\Debug\Urazbaevautoservice.pdb
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\bin\Debug\EntityFramework.dll
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\bin\Debug\EntityFramework.SqlServer.dll
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\bin\Debug\EntityFramework.xml
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\bin\Debug\EntityFramework.SqlServer.xml
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\bin\Debug\ru\EntityFramework.resources.dll
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\Urazbaevautoservice.csproj.AssemblyReference.cache
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\AddEditPage.g.cs
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\MainWindow.g.cs
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\Servicepage.g.cs
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\App.g.cs
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\Urazbaevautoservice_Content.g.cs
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\Urazbaevautoservice_MarkupCompile.cache
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\Urazbaevautoservice_MarkupCompile.lref
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\App.baml
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\AddEditPage.baml
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\MainWindow.baml
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\Servicepage.baml
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\Urazbaevautoservice.g.resources
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\Urazbaevautoservice.Properties.Resources.resources
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\Urazbaevautoservice.csproj.GenerateResource.cache
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\Urazbaevautoservice.csproj.CoreCompileInputs.cache
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\Urazbaevautoservice.csproj.CopyComplete
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\Urazbaevautoservice.exe
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\Urazbaevautoservice.pdb
