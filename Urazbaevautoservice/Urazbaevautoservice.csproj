@@ -180,6 +180,43 @@
   <ItemGroup>
     <Resource Include="Resources\service_logo.ico" />
     <Resource Include="Resources\service_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Услуги автосервиса\diz.jpg" />
+    <Resource Include="Услуги автосервиса\rulevoe-upravlenie-avtomobilya.jpg" />
+    <Resource Include="Услуги автосервиса\transmission.jpg" />
+    <Resource Include="Услуги автосервиса\АКПП.jpg" />
+    <Resource Include="Услуги автосервиса\Вариатор.jpg" />
+    <Resource Include="Услуги автосервиса\Выхлопная система.jpg" />
+    <Resource Include="Услуги автосервиса\ГУР.png" />
+    <Resource Include="Услуги автосервиса\Двигатель.png" />
+    <Resource Include="Услуги автосервиса\Дополнительные услуги.png" />
+    <Resource Include="Услуги автосервиса\Кондиционер.jpg" />
+    <Resource Include="Услуги автосервиса\КПП.png" />
+    <Resource Include="Услуги автосервиса\Подвеска.png" />
+    <Resource Include="Услуги автосервиса\Сцепление.jpg" />
+    <Resource Include="Услуги автосервиса\Техническое обслуживание.png" />
+    <Resource Include="Услуги автосервиса\Топливная система.png" />
+    <Resource Include="Услуги автосервиса\Шиномонтаж.jpg" />
+    <Resource Include="Услуги автосервиса\Электрика.png" />
+    <Resource Include="Resources\diz.jpg" />
+    <Resource Include="Resources\rulevoe-upravlenie-avtomobilya.jpg" />
+    <Resource Include="Resources\transmission.jpg" />
+    <Resource Include="Resources\АКПП.jpg" />
+    <Resource Include="Resources\Вариатор.jpg" />
+    <Resource Include="Resources\Выхлопная система.jpg" />
+    <Resource Include="Resources\ГУР.png" />
+    <Resource Include="Resources\Двигатель.png" />
+    <Resource Include="Resources\Дополнительные услуги.png" />
+    <Resource Include="Resources\Кондиционер.jpg" />
+    <Resource Include="Resources\КПП.png" />
+    <Resource Include="Resources\Подвеска.png" />
+    <Resource Include="Resources\Сцепление.jpg" />
+    <Resource Include="Resources\Техническое обслуживание.png" />
+    <Resource Include="Resources\Топливная система.png" />
+    <Resource Include="Resources\Шиномонтаж.jpg" />
+    <Resource Include="Resources\Электрика.png" />
+    <Resource Include="Resources\picture.png" />
     <Content Include="UrazbaevModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>UrazbaevModel.edmx</DependentUpon>

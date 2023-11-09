@@ -24,17 +24,16 @@ namespace Urazbaevautoservice
 
             return _context;
         }
-
         public Urazbaev_autoserviceEntities()
             : base("name=Urazbaev_autoserviceEntities")
         {
         }
-
+    
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
         }
-
+    
         public virtual DbSet<Client> Client { get; set; }
         public virtual DbSet<ClientService> ClientService { get; set; }
         public virtual DbSet<DocumentByService> DocumentByService { get; set; }
@@ -46,5 +45,6 @@ namespace Urazbaevautoservice
         public virtual DbSet<Service> Service { get; set; }
         public virtual DbSet<ServicePhoto> ServicePhoto { get; set; }
         public virtual DbSet<Tag> Tag { get; set; }
+
     }
 }

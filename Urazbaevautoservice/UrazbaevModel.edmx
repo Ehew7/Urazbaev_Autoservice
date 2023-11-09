@@ -96,7 +96,7 @@
           </Key>
           <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Title" Type="nvarchar" MaxLength="100" Nullable="false" />
-          <Property Name="MainImagePath" Type="nvarchar" MaxLength="1000" Nullable="false" />
+          <Property Name="MainImagePath" Type="nvarchar" MaxLength="1000" />
           <Property Name="DurationInSeconds" Type="nvarchar" MaxLength="100" Nullable="false" />
           <Property Name="Cost" Type="money" Nullable="false" />
           <Property Name="Discount" Type="float" />
@@ -454,7 +454,7 @@
           </Key>
           <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Title" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="MainImagePath" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="MainImagePath" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
           <Property Name="DurationInSeconds" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Cost" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
           <Property Name="Discount" Type="Double" />
