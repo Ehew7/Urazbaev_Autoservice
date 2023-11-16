@@ -98,6 +98,9 @@
     <Compile Include="ServicePhoto.cs">
       <DependentUpon>UrazbaevModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="SignUpPage.xaml.cs">
+      <DependentUpon>SignUpPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Tag.cs">
       <DependentUpon>UrazbaevModel.tt</DependentUpon>
     </Compile>
@@ -136,6 +139,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Servicepage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SignUpPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -217,6 +224,8 @@
     <Resource Include="Resources\Шиномонтаж.jpg" />
     <Resource Include="Resources\Электрика.png" />
     <Resource Include="Resources\picture.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="UrazbaevModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>UrazbaevModel.edmx</DependentUpon>

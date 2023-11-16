@@ -52,3 +52,5 @@ C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\Urazbaev
 C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\Urazbaevautoservice.csproj.CopyComplete
 C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\Urazbaevautoservice.exe
 C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\Urazbaevautoservice.pdb
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\SignUpPage.g.cs
+C:\Уразбаев Прога\5 лаба\Urazbaevautoservice\obj\Debug\SignUpPage.baml

@@ -20,7 +20,7 @@ namespace Urazbaevautoservice
     /// </summary>
     public partial class Servicepage : Page
     {
-
+        public bool a = false;
         int CountRecords;
         int CountPage;
         int CurrentPage = 0;
@@ -145,6 +145,7 @@ namespace Urazbaevautoservice
         private void EditButton_Click(object sender, RoutedEventArgs e)
         {
             Manager.MainFrame.Navigate(new AddEditPage((sender as Button).DataContext as Service));
+            a = true;
         }
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
@@ -180,6 +181,7 @@ namespace Urazbaevautoservice
 
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
+            a = false;
             Manager.MainFrame.Navigate(new AddEditPage((sender as Button).DataContext as Service));
         }
 
@@ -289,5 +291,10 @@ namespace Urazbaevautoservice
             ChangePage(2, null);
         }
 
+        private void SignUpButton_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new SignUpPage((sender as Button).DataContext as Service));
+
+        }
     }
 }

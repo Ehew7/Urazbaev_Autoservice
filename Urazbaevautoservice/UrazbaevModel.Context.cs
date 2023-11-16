@@ -15,15 +15,16 @@ namespace Urazbaevautoservice
     
     public partial class Urazbaev_autoserviceEntities : DbContext
     {
+
         private static Urazbaev_autoserviceEntities _context;
 
         public static Urazbaev_autoserviceEntities GetContext()
         {
             if (_context == null)
                 _context = new Urazbaev_autoserviceEntities();
-
             return _context;
         }
+
         public Urazbaev_autoserviceEntities()
             : base("name=Urazbaev_autoserviceEntities")
         {
@@ -45,6 +46,5 @@ namespace Urazbaevautoservice
         public virtual DbSet<Service> Service { get; set; }
         public virtual DbSet<ServicePhoto> ServicePhoto { get; set; }
         public virtual DbSet<Tag> Tag { get; set; }
-
     }
 }

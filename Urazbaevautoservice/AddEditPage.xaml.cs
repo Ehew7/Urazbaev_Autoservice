@@ -20,13 +20,17 @@ namespace Urazbaevautoservice
     /// </summary>
     public partial class AddEditPage : Page
     {
+        public bool a = false;
         private Service _currentServise = new Service();
         public AddEditPage(Service SelectedService)
         {
             InitializeComponent();
 
             if (SelectedService != null)
+            {
                 _currentServise = SelectedService;
+                a = true;
+            }
             DataContext = _currentServise;
         }
 
@@ -46,8 +50,14 @@ namespace Urazbaevautoservice
             if (_currentServise.Discount < 0 || _currentServise.Discount > 100)
                 errors.AppendLine("Укажите корректную скидку");
 
-            if (string.IsNullOrWhiteSpace(_currentServise.DurationInSeconds))
+            if (_currentServise.DurationInSeconds == 0)
                 errors.AppendLine("Укажите длительность услуги");
+
+            if (_currentServise.DurationInSeconds > 240)
+                errors.AppendLine("Длительснсть не может быть больше 240 минут");
+
+            if (_currentServise.DurationInSeconds < 0 || _currentServise.Discount > 100)
+                errors.AppendLine("Укажите скидку от 0 до 100");
 
             if (errors.Length > 0)
             {
@@ -55,20 +65,32 @@ namespace Urazbaevautoservice
                 return;
             }
 
-            if (_currentServise.ID == 0)
-                Urazbaev_autoserviceEntities.GetContext().Service.Add(_currentServise);
+            var allServices = Urazbaev_autoserviceEntities.GetContext().Service.ToList();
+            allServices = allServices.Where(p => p.Title == _currentServise.Title).ToList();
 
-            try
+            if (allServices.Count == 0 || a)
             {
-                Urazbaev_autoserviceEntities.GetContext().SaveChanges();
-                MessageBox.Show("информация сохранена");
-                Manager.MainFrame.GoBack();
+                if (_currentServise.ID == 0)
+                    Urazbaev_autoserviceEntities.GetContext().Service.Add(_currentServise);
+
+                try
+                {
+                    Urazbaev_autoserviceEntities.GetContext().SaveChanges();
+                    MessageBox.Show("информация сохранена");
+                    Manager.MainFrame.GoBack();
+                }
+
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message.ToString());
+                }
+            }
+            else
+            {
+                MessageBox.Show("Уже существует такая услуга");
             }
 
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message.ToString());
-            }
+            
         }
 
     }
